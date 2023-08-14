@@ -1,0 +1,57 @@
+.contenedor {
+  height: 100vh;
+}
+nav {
+  color: aliceblue;
+}
+
+.logo {
+  width: 20px;
+}
+
+.user-avatar {
+  width: 30px;
+  border-radius: 50%;
+}
+
+#banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+#banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.8);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.466);
+  color: white;
+}
+
+.title {
+  border-radius: 15px;
+  border: 1px solid rgb(255, 77, 0);
+}
+
+.card-blog img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.ancla:before {
+  display: block;
+  content: " ";
+  height: 56px;
+  margin-top: -56px;
+  visibility: hidden;
+}
