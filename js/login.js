@@ -27,3 +27,14 @@ const logIn = (event) => {
     alert("El correo o la contraseña no son correctos");
   }
 };
+
+// const mostrarContenido = () => {
+//   console.log(document.querySelector("#correo").value);
+// };
+
+// document.querySelector("#correo").addEventListener("blur", mostrarContenido);
+// document
+//   .querySelector("#correo")
+//   .addEventListener("focus", () => console.log("Hiciste foco 🤩"));
+
+document.querySelector("form").addEventListener("submit", logIn);

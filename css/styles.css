@@ -55,3 +55,6 @@ nav {
   margin-top: -56px;
   visibility: hidden;
 }
+.portada img {
+  width: 100%;
+}
